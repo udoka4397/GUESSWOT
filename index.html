@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUESSWHOT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+
+        <section class="firstpg">
+            <div class="content">
+                <p class="greeting"></p>
+                <p class="wlcm">welcome to <br> GUESSWHOT📦</p>
+                <p class="canu">Can you guess what i have in my box?🙄</p>
+                <img class="firstsectimg" src="./images/closebox.png" alt="my box"><br>
+                <button class="firstsectbtn">Start Game</button>
+            </div>
+        </section>
+        <section class="secondpg">
+            <div class="content2">
+                <div class="newwot">
+                    <button class="btn new"> New Game</button>
+                    <p class="wlcm wot">What is inside my box?</p>
+                </div>
+                <div class="img">
+                    <div>
+                        <div class="score">
+                            <p>Score</p>
+                            <p class="currentscore">0</p>
+                        </div>
+                       
+                        <div class="guesno">
+                            <p>No. Of Guess:</p>
+                            <p class="currentguessno">0</p>
+                        </div>
+                    </div>
+                    <img class="secondsectimg" src="./images/closebox.png" alt="closedbox">
+
+                </div>
+                <button class="btn guess">GUESS</button>
+
+                <div class="option">
+                    <div class="options">
+                        <p class="wlcm select">Select one Option</p>
+                        <div class="optionbtns">
+                            <button id="optionbtn" class="btn optionbook">books</button>
+                            <button id="optionbtn" class="btn optioncloth">cloth</button>
+                            <button id="optionbtn" class="btn optioniphone">iphone</button>
+                            <button id="optionbtn" class="btn optionshoes">shoes</button>
+                            <button id="optionbtn" class="btn optionempty">empty</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="btnmsg">
+            <div class="btnmsg1">
+                <img class="secondsectimg" src="./images/openbox.png" alt="openbox">
+                <img class="secondsectimg1" src="" alt="guesimg">
+                <p class="msg"> </p>
+                <p class="msg1"></p>
+                <div>
+                    <input class="ok btn" type="button" value="OK">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+</body>
