@@ -435,9 +435,9 @@ margin-bottom: 1rem;
     border-radius: 50%;
   }
   .secondsectimgopn {
-    width: 300px;
+    width: 200px;
     border-radius: 50%;
-    margin-left: 30px;
+    margin-left: 20px;
   }
   
   .secondsectimg1 {
@@ -470,7 +470,7 @@ margin-bottom: 1rem;
   }
   
   .optionbtns {
-    display: block;
+    display: flex;
     justify-content: space-around;
   
   }
@@ -482,11 +482,12 @@ margin-bottom: 1rem;
     border-radius: 10px;
   margin: 2px;
     height: 30px;
-    width: 60px;
+    width: 50px;
     font-size: 15px;
     background-color: rgb(198, 238, 123);
     cursor: pointer;
     font-weight: 700;
+    padding: 0;
   }
   
   .btn:active {
@@ -540,8 +541,8 @@ margin-bottom: 1rem;
     padding: 10px;
     background-color: rgb(53, 151, 236);
     border-radius: 10px;
-    width: 300px;
-    margin-left: 20px;
+    width: 200px;
+    margin-left: 10px;
    
     animation-name: btn;
     animation-duration: 2s;
@@ -556,7 +557,7 @@ margin-bottom: 1rem;
     padding: px;
     background-color: rgb(247, 13, 33);
     border-radius: 10px;
-    width: 300px;
+    width: 200px;
   
   }
   .btnmsg{
