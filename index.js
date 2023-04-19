@@ -80,8 +80,6 @@ optionbookEl.addEventListener('click', function () {
     noGuessEl.textContent = Number(noGuessEl.textContent) + 1;
     function myGuessbook() {
         let randomguess = myoptions[Math.trunc(Math.random() * myoptions.length)];
-        console.log(randomguess);
-        boximgEls.src = `./images/openbox.png`;
         guessimgEl.src = `./images/${randomguess}.png`;
         guessimgEl.classList.remove('hidden');
         wotEl.classList.add('hidden');
@@ -110,8 +108,6 @@ optionclothEl.addEventListener('click', function () {
     noGuessEl.textContent = Number(noGuessEl.textContent) + 1;
     function myGuesscloth() {
         let randomguess = myoptions[Math.trunc(Math.random() * myoptions.length)];
-        console.log(randomguess);
-        boximgEls.src = './images/openbox.png';
         guessimgEl.src = `./images/${randomguess}.png`;
         guessimgEl.classList.remove('hidden');
         wotEl.classList.add('hidden');
@@ -138,8 +134,6 @@ optioniphoneEl.addEventListener('click', function () {
     noGuessEl.textContent = Number(noGuessEl.textContent) + 1;
     function myGuessiphone() {
         let randomguess = myoptions[Math.trunc(Math.random() * myoptions.length)];
-        console.log(randomguess);
-        boximgEls.src = './images/openbox.png';
         guessimgEl.src = `./images/${randomguess}.png`;
         guessimgEl.classList.remove('hidden');
         wotEl.classList.add('hidden');
@@ -165,8 +159,6 @@ optionshoesEl.addEventListener('click', function () {
     noGuessEl.textContent = Number(noGuessEl.textContent) + 1;
     function myGuessshoes() {
         let randomguess = myoptions[Math.trunc(Math.random() * myoptions.length)];
-        console.log(randomguess);
-        boximgEls.src = './images/openbox.png';
         guessimgEl.src = `./images/${randomguess}.png`;
         guessimgEl.classList.remove('hidden');
         wotEl.classList.add('hidden');
@@ -193,8 +185,6 @@ optionemptyEl.addEventListener('click', function () {
     noGuessEl.textContent = Number(noGuessEl.textContent) + 1;
     function myGuessempty() {
         let randomguess = myoptions[Math.trunc(Math.random() * myoptions.length)];
-        console.log(randomguess);
-        boximgEls.src = './images/openbox.png';
         guessimgEl.src = `./images/${randomguess}.png`;
         guessimgEl.classList.remove('hidden');
         wotEl.classList.add('hidden');
@@ -228,7 +218,6 @@ okEl.addEventListener('click', function () {
     firstsectEl.classList.add('hidden');
     secondsectEl.classList.remove('hidden');
     btnmsgEl.classList.add('hidden');
-
     optionEl.classList.add('hidden');
     guessimgEl.classList.add('hidden');
     msgcrtEl.classList.add('hidden');
