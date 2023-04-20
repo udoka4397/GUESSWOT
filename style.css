@@ -471,8 +471,8 @@ margin-bottom: 1rem;
   
   .optionbtns {
     display: flex;
-    justify-content: space-between;
-  margin: 5;
+    justify-content: space-evenly;
+  
   }
   
   .btn {
@@ -541,7 +541,7 @@ margin-bottom: 1rem;
     padding: 10px;
     background-color: rgb(53, 151, 236);
     border-radius: 10px;
-    width: 300px;
+    width: 250px;
     margin-left: 10px;
    
     animation-name: btn;
@@ -551,13 +551,13 @@ margin-bottom: 1rem;
   }
   
   .msg1 {
-    margin-left: 20px;
+    margin-left: 10px;
     text-align: center;
     font-weight: 700;
     padding: px;
     background-color: rgb(247, 13, 33);
     border-radius: 10px;
-    width: 200px;
+    width: 250px;
   
   }
   .btnmsg{
